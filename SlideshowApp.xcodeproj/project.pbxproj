@@ -12,6 +12,11 @@
 		C30C116E1E83C164004C8B13 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C30C116C1E83C164004C8B13 /* Main.storyboard */; };
 		C30C11701E83C164004C8B13 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C30C116F1E83C164004C8B13 /* Assets.xcassets */; };
 		C30C11731E83C164004C8B13 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C30C11711E83C164004C8B13 /* LaunchScreen.storyboard */; };
+		C30C117B1E83C232004C8B13 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C30C117A1E83C232004C8B13 /* ResultViewController.swift */; };
+		C30C11851E83CB95004C8B13 /* 1 in Resources */ = {isa = PBXBuildFile; fileRef = C30C11841E83CB95004C8B13 /* 1 */; };
+		C30C11871E83CB9F004C8B13 /* 2 in Resources */ = {isa = PBXBuildFile; fileRef = C30C11861E83CB9F004C8B13 /* 2 */; };
+		C30C11891E83CBA6004C8B13 /* 3 in Resources */ = {isa = PBXBuildFile; fileRef = C30C11881E83CBA6004C8B13 /* 3 */; };
+		C30C118B1E83CBAC004C8B13 /* 4 in Resources */ = {isa = PBXBuildFile; fileRef = C30C118A1E83CBAC004C8B13 /* 4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +27,11 @@
 		C30C116F1E83C164004C8B13 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C30C11721E83C164004C8B13 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C30C11741E83C164004C8B13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C30C117A1E83C232004C8B13 /* ResultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
+		C30C11841E83CB95004C8B13 /* 1 */ = {isa = PBXFileReference; lastKnownFileType = file; path = 1; sourceTree = "<group>"; };
+		C30C11861E83CB9F004C8B13 /* 2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = 2; sourceTree = "<group>"; };
+		C30C11881E83CBA6004C8B13 /* 3 */ = {isa = PBXFileReference; lastKnownFileType = file; path = 3; sourceTree = "<group>"; };
+		C30C118A1E83CBAC004C8B13 /* 4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = 4; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +50,10 @@
 			children = (
 				C30C11671E83C164004C8B13 /* SlideshowApp */,
 				C30C11661E83C164004C8B13 /* Products */,
+				C30C11841E83CB95004C8B13 /* 1 */,
+				C30C11861E83CB9F004C8B13 /* 2 */,
+				C30C11881E83CBA6004C8B13 /* 3 */,
+				C30C118A1E83CBAC004C8B13 /* 4 */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,6 +71,7 @@
 				C30C11681E83C164004C8B13 /* AppDelegate.swift */,
 				C30C116A1E83C164004C8B13 /* ViewController.swift */,
 				C30C116C1E83C164004C8B13 /* Main.storyboard */,
+				C30C117A1E83C232004C8B13 /* ResultViewController.swift */,
 				C30C116F1E83C164004C8B13 /* Assets.xcassets */,
 				C30C11711E83C164004C8B13 /* LaunchScreen.storyboard */,
 				C30C11741E83C164004C8B13 /* Info.plist */,
@@ -124,8 +139,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				C30C11731E83C164004C8B13 /* LaunchScreen.storyboard in Resources */,
+				C30C11871E83CB9F004C8B13 /* 2 in Resources */,
+				C30C11891E83CBA6004C8B13 /* 3 in Resources */,
 				C30C11701E83C164004C8B13 /* Assets.xcassets in Resources */,
 				C30C116E1E83C164004C8B13 /* Main.storyboard in Resources */,
+				C30C11851E83CB95004C8B13 /* 1 in Resources */,
+				C30C118B1E83CBAC004C8B13 /* 4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,6 +157,7 @@
 			files = (
 				C30C116B1E83C164004C8B13 /* ViewController.swift in Sources */,
 				C30C11691E83C164004C8B13 /* AppDelegate.swift in Sources */,
+				C30C117B1E83C232004C8B13 /* ResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,6 +317,7 @@
 				C30C11791E83C164004C8B13 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

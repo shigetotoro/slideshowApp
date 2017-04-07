@@ -10,7 +10,9 @@ import UIKit
 
 class ViewController: UIViewController {
   
+  @IBOutlet weak var modoru: UIButton!
 
+  @IBOutlet weak var susumu: UIButton!
   
   
   var imageCount = 0
@@ -20,6 +22,8 @@ class ViewController: UIViewController {
   var timer_sec: Float = 0
 
   override func viewDidLoad() {
+    
+
     super.viewDidLoad()
     // Do any additional setup after loading the view, typically from a nib.
     imageView.image = UIImage(named: "1")
@@ -84,6 +88,8 @@ class ViewController: UIViewController {
   @IBAction func move(_ sender: Any) {
   
       if self.timer == nil{
+            susumu.isEnabled = false
+            modoru.isEnabled = false
         movebtn.setTitle("停止", for: UIControlState.normal)
         self.timer = Timer.scheduledTimer(timeInterval: 2, target: self, selector: #selector(next(_:)), userInfo: nil, repeats: true)
       imageCount += 1
@@ -98,6 +104,8 @@ class ViewController: UIViewController {
         print(timer)
         self.timer.invalidate()
         self.timer = nil
+        susumu.isEnabled = true
+        modoru.isEnabled = true
 
     }
 }

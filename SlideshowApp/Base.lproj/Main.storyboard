@@ -99,7 +99,9 @@
                     </view>
                     <connections>
                         <outlet property="imageView" destination="ut8-CM-6ah" id="uH8-3s-3QR"/>
+                        <outlet property="modoru" destination="zqo-G7-sQA" id="8Xj-6d-jhY"/>
                         <outlet property="movebtn" destination="7cG-F8-w1X" id="eLr-zh-NrC"/>
+                        <outlet property="susumu" destination="6aS-pW-wLc" id="dMK-ao-28C"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

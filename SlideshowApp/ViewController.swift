@@ -32,6 +32,11 @@ class ViewController: UIViewController {
   override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
     let resultViewController:ResultViewController = segue.destination as! ResultViewController
     resultViewController.imageCount = imageCount
+    self.timer.invalidate()
+    self.timer = nil
+    movebtn.setTitle("再生", for: UIControlState.normal)
+    susumu.isEnabled = true
+    modoru.isEnabled = true
   }
 
 
